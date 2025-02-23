@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Barbalho Construction – Experts in framing, decks, additions, new home construction, and stairs. Quality craftsmanship for every project.">
+    <title>Barbalho Construction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            color: #3e3d3d;
+        }
+
+        header {
+            background-color: #8b5e3c; /* Wood brown color */
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            background: #5c3d2e; /* Darker wood color */
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f1c27d; /* Light wood color for hover effect */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff5e1; /* Light wood color for the background */
+        }
+
+        footer {
+            background-color: #8b5e3c; /* Wood brown color */
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+
+        .section {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #f9f4e5; /* Slightly lighter color */
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .active-tab {
+            display: block;
+        }
+
+        .section h2 {
+            color: #5c3d2e;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                padding: 10px 5px;
+            }
+
+            nav a {
+                margin: 0 10px;
+                font-size: 14px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .section {
+                padding: 15px;
+                margin: 15px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .section h2 {
+                font-size: 18px;
+            }
+
+            nav a {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Barbalho Construction</h1>
+        <p>Your Trusted Partner for Framing, Decks, Additions, New Homes, and Stairs</p>
+    </header>
+
+    <nav>
+        <a href="#" onclick="showTab('home')">Home</a>
+        <a href="#" onclick="showTab('framing')">Framing</a>
+        <a href="#" onclick="showTab('decks')">Decks</a>
+        <a href="#" onclick="showTab('additions')">Additions</a>
+        <a href="#" onclick="showTab('homes')">New Homes</a>
+        <a href="#" onclick="showTab('stairs')">Stairs</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Home Section -->
+        <div class="tab-content" id="home">
+            <h2>Welcome to Barbalho Construction!</h2>
+            <p>At Barbalho Construction, we are committed to providing high-quality construction services in framing, decks, home additions, new home builds, and stair installations. We take pride in delivering every project with superior craftsmanship, focusing on precision and reliability to ensure lasting results. Our dedicated team brings years of expertise and attention to detail to each job, guaranteeing that every project is built to exceed expectations.</p>
+            <p>Whether you're embarking on building a new home or upgrading an existing property, our team is ready to guide you through each step of the process. From the initial phase to final completion, we focus on achieving your vision with skill and attention to detail.</p>
+            <h3>Why Choose Us?</h3>
+            <ul>
+                <li>High-quality craftsmanship with a focus on detail and durability.</li>
+                <li>Timely project completion with a commitment to meeting deadlines.</li>
+                <li>Expert team ensuring precise and dependable results on every project.</li>
+            </ul>
+        </div>
+
+        <!-- Framing Section -->
+        <div class="tab-content" id="framing">
+            <div class="section">
+                <h2>Framing Services</h2>
+                <p>Framing is the core of any building, and at Barbalho Construction, we specialize in both residential and commercial framing. We ensure that your structure is built strong, stable, and ready for the next construction stages. Whether you are building a home or a commercial building, we provide expert framing that ensures safety and stability.</p>
+                <p>Our team takes pride in providing high-quality frames for every project. From single-story homes to multi-level commercial buildings, we guarantee that each frame is built to last, providing a solid foundation for whatever follows in your construction project.</p>
+            </div>
+        </div>
+
+        <!-- Decks Section -->
+        <div class="tab-content" id="decks">
+            <div class="section">
+                <h2>Deck Construction</h2>
+                <p>A well-designed deck enhances any outdoor living space. At Barbalho Construction, we focus on creating custom decks that provide both beauty and functionality. Our team specializes in building high-quality decks, made to fit your exact style and needs. Whether you're looking for a traditional wood deck or a more modern option, we provide superior craftsmanship that ensures your deck will be both visually appealing and long-lasting.</p>
+                <p>We use durable framing techniques to ensure that every deck we build is safe, secure, and built to endure. With years of experience, we are ready to create a deck that perfectly complements your home and offers a great space for relaxation and enjoyment.</p>
+            </div>
+        </div>
+
+        <!-- Additions Section -->
+        <div class="tab-content" id="additions">
+            <div class="section">
+                <h2>Home Additions</h2>
+                <p>Looking to expand your living space? At Barbalho Construction, we specialize in home additions that seamlessly blend with your existing structure. Whether it's adding a room, expanding your kitchen, or building an additional floor, we provide expert construction services that integrate smoothly with your home's original design. Our team works carefully to ensure that your addition looks and feels like it was always part of your home.</p>
+                <p>We focus on providing a strong, durable frame for any home addition, ensuring that your new space is secure and ready to meet your needs for years to come. We take pride in our ability to expand your home without compromising its integrity or design, ensuring your home addition is as durable as it is beautiful.</p>
+            </div>
+        </div>
+
+        <!-- New Homes Section -->
+        <div class="tab-content" id="homes">
+            <div class="section">
+                <h2>New Home Construction</h2>
+                <p>Building a new home is an exciting process, and Barbalho Construction is here to bring your dream home to life. Our team specializes in custom new home builds, focusing on delivering a home that is as beautiful as it is functional. We work with you from the initial stages to ensure that your home meets your exact specifications, delivering high-quality results at every step.</p>
+                <p>From framing the structure to the final finishing touches, we ensure that every aspect of your new home is built to last. Our expertise in framing guarantees that your home’s foundation is solid, providing the stability needed for the next phases of construction. We focus on creating homes that are not only visually stunning but also durable and designed to withstand the test of time.</p>
+            </div>
+        </div>
+
+        <!-- Stairs Section -->
+        <div class="tab-content" id="stairs">
+            <div class="section">
+                <h2>Stair Construction</h2>
+                <p>Stairs are an essential part of any building, offering both functionality and style. At Barbalho Construction, we specialize in building sturdy, attractive stairs that complement the overall design of your home or commercial property. We focus on using precise framing techniques to create stairs that are both safe and visually appealing.</p>
+                <p>From traditional wooden stairs to modern, custom designs, we provide a range of options that suit your home’s or building’s aesthetic. We ensure that every staircase is built with attention to detail, providing a safe, long-lasting addition to your space.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="contact-info">
+            <p>Contact Us: (774) 520-4964</p>
+            <p>Email: barbalhoconstruction@gmail.com</p>
+            <p>Instagram: barbalho_construction_</p>
+            <p>We proudly serve Rhode Island and Massachusetts.</p>
+            <p>&copy; 2025 Barbalho Construction. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function showTab(tabId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.tab-content');
+            sections.forEach(section => section.classList.remove('active-tab'));
+
+            // Show the selected section
+            const selectedTab = document.getElementById(tabId);
+            selectedTab.classList.add('active-tab');
+        }
+
+        // Show the home tab by default
+        showTab('home');
+    </script>
+
+</body>
+</html>
